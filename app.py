@@ -2,11 +2,18 @@ import streamlit as st
 
 # Define job skills requirements (example data)
 job_skills = {
-    "Software Engineer": ["Python", "JavaScript", "SQL", "Git", "Problem Solving"],
-    "Data Scientist": ["Python", "R", "Statistics", "Machine Learning", "SQL"],
-    "Web Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
-    "Product Manager": ["Communication", "Analytics", "Project Management", "User Research"],
-    "UX Designer": ["Design Thinking", "Prototyping", "User Research", "Figma", "Adobe XD"]
+    "Software Engineer": ["Python", "JavaScript", "SQL", "Git", "Problem Solving", "Algorithms", "Data Structures"],
+    "Data Scientist": ["Python", "R", "Statistics", "Machine Learning", "SQL", "Data Visualization", "Pandas"],
+    "Web Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Responsive Design", "REST APIs"],
+    "Product Manager": ["Communication", "Analytics", "Project Management", "User Research", "Roadmapping", "Stakeholder Management"],
+    "UX Designer": ["Design Thinking", "Prototyping", "User Research", "Figma", "Adobe XD", "Interaction Design"],
+    "DevOps Engineer": ["Linux", "Docker", "Kubernetes", "CI/CD", "Cloud Platforms", "Monitoring", "Scripting"],
+    "Cloud Engineer": ["AWS", "Azure", "GCP", "Infrastructure as Code", "Networking", "Security", "Automation"],
+    "Cybersecurity Analyst": ["Network Security", "Vulnerability Assessment", "Incident Response", "SIEM", "Risk Management", "Penetration Testing"],
+    "QA Engineer": ["Test Automation", "Selenium", "API Testing", "Test Plans", "Defect Tracking", "Quality Assurance"],
+    "Mobile App Developer": ["Swift", "Kotlin", "React Native", "UI/UX", "App Store Deployment", "Mobile Architecture"],
+    "Database Administrator": ["SQL", "Database Design", "Backup Recovery", "Performance Tuning", "NoSQL", "Data Modeling"],
+    "Network Engineer": ["Routing", "Switching", "VPN", "Firewalls", "Network Protocols", "Troubleshooting"]
 }
 
 # Available skills for user to select
